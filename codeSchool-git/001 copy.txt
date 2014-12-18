@@ -1,0 +1,58 @@
+1.start
+
+git init;
+
+
+2.Checking the Status(Adding & Committing)
+
+git status;
+
+
+3.adding changes
+
+git add file.txt;/git add "file.txt";
+
+git add "*.txt";
+
+
+4.committing
+
+git commit -m "add a file";
+
+
+5.history
+
+git log;
+
+
+6.Remote Repositories
+
+git remote add origin https://github.com/try-git/try_git.git;
+
+
+7.Pushing Remotely
+
+git push -u origin master;
+
+
+8.Pulling Remotely
+
+git pull origin master;
+
+
+9.Differences
+
+git diff HEAD;
+
+10.Staged Differences (cont’d)
+
+git diff --staged;
+
+11.Resetting the Stage
+
+git reset file.txt
+
+
+12.Undo
+
+git checkout -- file.txt
