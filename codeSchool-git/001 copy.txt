@@ -27,7 +27,7 @@ git log;
 
 6.Remote Repositories
 
-git remote add origin https://github.com/try-git/try_git.git;
+git remote add origin https://github.com/try-git/try_git.git;;;;
 
 
 7.Pushing Remotely
